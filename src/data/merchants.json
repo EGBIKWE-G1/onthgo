@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Air Peace Airline",
+        "cost": "245,940",
+        "source": {
+            "take_off": "00:30",
+            "iata": "LOS"
+        },
+        "destination": {
+            "landing_time": "11:50",
+            "iata": "LDN"
+        },
+        "stops": {
+            "count": 1,
+            "iata": "DOH"
+        },
+        "flight_duration": "22h 30m"
+    },
+    {
+        "id": 2,
+        "name": "MedView",
+        "cost": "503,888",
+        "source": {
+            "take_off": "12:10",
+            "iata": "LOS"
+        },
+        "destination": {
+            "landing_time": "02:45",
+            "iata": "LDN"
+        },
+        "stops": {
+            "count": 1,
+            "iata": "DOH"
+        },
+        "flight_duration": "05h 55m"
+    },
+    {
+        "id": 3,
+        "name": "Arik Airline",
+        "cost": "295,333",
+        "source": {
+            "take_off": "03:35",
+            "iata": "LOS"
+        },
+        "destination": {
+            "landing_time": "05:50",
+            "iata": "LDN"
+        },
+        "stops": {
+            "count": 1,
+            "iata": "DOH"
+        },
+        "flight_duration": "08h 00m"
+    },
+    {
+        "id": 4,
+        "name": "Dana Airline",
+        "cost": "455,842",
+        "source": {
+            "take_off": "06:15",
+            "iata": "LOS"
+        },
+        "destination": {
+            "landing_time": "08:45",
+            "iata": "LDN"
+        },
+        "stops": {
+            "count": 1,
+            "iata": "DOH"
+        },
+        "flight_duration": "10h 40m"
+    }
+]

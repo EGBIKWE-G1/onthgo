@@ -1,0 +1,26 @@
+.input-box {
+    position: relative;
+    z-index: 1000;
+  
+    .icon {
+      position: absolute;
+      top: 20;
+      padding: 4px;
+      
+    }
+
+    input {
+      border: 1px solid #999;
+      padding: 6px 0px 6px 25px;
+      width: 100%;
+      background: rgba(63, 136, 197, 0.03);
+      border: 0.5px solid #9B9A9A;
+      box-sizing: border-box;
+      border-radius: 5px;
+    }
+}
+
+
+// .departure {
+//   color: red;
+// }

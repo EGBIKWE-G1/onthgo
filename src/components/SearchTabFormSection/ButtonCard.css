@@ -1,0 +1,46 @@
+.MuiToggleButton-root.Mui-selected:hover {
+  /* background: rgba(1, 188, 246, 0.05);
+    border: 0.5px solid #043F7C; */
+}
+.MuiToggleButton-root:hover {
+  text-decoration: none;
+  color: #043f7c;
+  /* background-color: rgba(39, 135, 214, 0.81); */
+}
+.MuiToggleButton-root.Mui-selected {
+  /* color: rgba(43, 125, 235, 0.54); */
+  /* background-color: rgba(15, 122, 190, 0.12); */
+  /* background-color: rgba(39, 135, 214, 0.81); */
+}
+
+.selected-card {
+  font-weight: bold;
+  color: #043f7c;
+}
+.default-selected-card {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 0.5px solid rgba(0, 0, 0, 0.35);
+  box-sizing: border-box;
+  text-align: 'left';
+}
+.default-selected-card:active {
+  background-color: rgba(1, 188, 246, 0.05);
+  border: 0.5px solid #bfcbd8;
+  box-sizing: 'border-box';
+  border-radius: 10px;
+  outline: 0;
+  color: #043f7c;
+}
+.default-selected-card:focus {
+  background: rgba(1, 188, 246, 0.05);
+  outline: 0;
+  color: #043f7c;
+  border: 0.5px solid #043f7c;
+}
+.default-selected-card.selected-card-outline {
+  border: 2px solid #043f7c;
+  border-radius: 5px;
+}

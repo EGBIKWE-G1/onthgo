@@ -1,0 +1,48 @@
+.header-pointer {
+    box-shadow: 2px 1rem 10px #eeeeee;
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.header-pointer__navigator {
+    padding-top: 1rem;
+}
+
+.navigator-icon {
+    font-size: 1.6rem;
+    color: #000000;
+    font-weight: 300;
+}
+
+.navigator-icon:not(:first-child) {
+    padding-left: 2rem;
+}
+
+.navigator-setting {
+    font-size: 1.6rem;
+    color: #000000;
+    padding-top: 1rem;
+}
+
+.navigator-page {
+    font-size: 3rem;
+    margin-left: -6rem;
+}
+
+.left {
+    height: 30px;
+}
+
+.right {
+    height: 30px;
+}
+
+.home {
+    height: 30px;
+}
+
+.gear {
+    height: 30px;
+}

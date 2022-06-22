@@ -1,0 +1,51 @@
+.searchbox {
+  position: relative;
+  background: rgba(63, 136, 197, 0.03);
+}
+.searchbox .icon {
+  position: absolute;
+  top: 20;
+  padding: 6px;
+}
+.searchbox input {
+  border: 0.5px solid #9B9A9A;
+  padding: 6px 0px 6px 25px;
+  width: 100%;
+  background: rgba(63, 136, 197, 0.03);
+  box-shadow: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 40px;
+}
+.searchbox .no-autocomplete {
+  color: #999;
+  padding: 8px;
+}
+.searchbox .autocomplete {
+  position: absolute;
+  border: 1px solid #999;
+  border-top-width: 0;
+  list-style: none;
+  margin-top: 0;
+  max-height: 143px;
+  overflow-y: auto;
+  padding-left: 0;
+  width: calc(300px + 1rem);
+  z-index: 1000;
+  background-color: white;
+}
+.searchbox .autocomplete li {
+  padding: 8px;
+  color: #333;
+}
+.searchbox .autocomplete > .active,
+.searchbox .autocomplete li:hover {
+  background-color: #777;
+  cursor: pointer;
+  font-weight: 700;
+  color: #fff;
+}
+.searchbox .autocomplete li:not(:last-of-type) {
+  border-bottom: 1px solid #999;
+}/*# sourceMappingURL=AutoCompleteInput.css.map */

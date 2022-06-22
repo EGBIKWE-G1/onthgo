@@ -1,0 +1,12 @@
+/* .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    background-color: #043f7c;
+} */
+
+
+Tab:hover {
+    background-color: #ff5757;
+    color: #ffffff;
+    border: none;
+}

@@ -1,0 +1,55 @@
+.input-divider {
+  height: 30px;
+  width: 1px;
+  background-color: #9b9a9a;
+  margin-top: 4px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+div#departure-input-container {
+  width: 100%;
+  background: rgba(63, 136, 197, 0.03);
+  border: 0.5px solid #9b9a9a;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  padding: 1px;
+}
+div#departure-input-container .icon {
+  position: absolute;
+  top: 20;
+  padding: 4px;
+}
+div#departure-input-container #departureDateInput {
+  width: 60%;
+  padding: 4px 0px 4px 24px;
+  border: none;
+  margin-right: 4px;
+}
+div#departure-input-container #departureDateInput:active {
+  border: none;
+  border-radius: 0;
+}
+div#departure-input-container #addReturnInput {
+  width: 40%;
+  border: none;
+}
+div#departure-input-container #addReturnInput:hover {
+  border: none;
+  border-radius: 0;
+}
+div#departure-input-container div#divider {
+  width: 2px;
+  height: 100%;
+  background-color: black;
+  color: black;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.cabin-input {
+  padding: 0.5rem 7.7rem;
+  border: 0px solid gray;
+}/*# sourceMappingURL=DepartureInput.css.map */

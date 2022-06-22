@@ -1,0 +1,90 @@
+.IconFixedTop {
+    display: flex;
+    justify-content: flex-end;
+    transition: all 0.3s ease;
+    background: #ff5757;
+    height: 30px;
+    position: relative;
+}
+.IconTop {
+    color: #0D3258;
+    font-size: 35px;
+}
+.test {
+    width: 350px;
+    height: 320px;
+    padding: 30%;
+    margin-left: -400%;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    top: -25px;
+}
+
+
+.containerLogo {
+   /* padding: 10px; */
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+  transition: all 0.5s ease-in-out;   
+}
+
+
+.item {
+    padding: 30px;
+  /* height: 25px;  */
+
+}
+
+
+.containerWozeHeader {
+    padding: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+  transition: all 0.5s ease-in-out;
+}
+.items {
+    padding: 30px;
+}
+#copyright {
+    padding: 10px;
+    margin: auto;
+}
+#copyright-one {
+    float: right; 
+}
+#copyright-two {
+    float: left;
+}
+.footerLine-background {
+    background: #fff;
+    max-width: 100%;
+    max-height: 0%;
+    /* justify-content: space-evenly; */
+}
+
+
+#headerNav {
+    float: left;
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .ColDiv-centre::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .googleplaystore-Logo {
+    width: 120px;
+    height: 58px; 
+  }
+    @media only screen and (min-width: 400px) {
+        .googleplaystore-Logo {
+            width: 120px;
+            height: 58px; 
+            margin-top: 20px;
+          }
+  }

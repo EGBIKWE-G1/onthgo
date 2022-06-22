@@ -1,0 +1,80 @@
+* {
+    transition: .6s all;
+}
+
+.hearth-circle {
+    padding: 21px 20px 18px 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    width: 57px;
+    height: 57px;
+    /* margin-top: -170px; */
+    margin-top: -50%;
+    /* bottom: 20%; */
+    margin-left: 77%;
+    /* margin-left: 225px; */
+    /* justify-content: center;
+    margin-bottom: calc(var(--norm-size) / -2); */
+}
+
+.fas {
+    color: blue;
+    font-size: 23px;
+    position: absolute;
+}
+
+.status {
+    font-family: "Neucha", sans-serif;
+}
+
+#like {
+    /* font-size: var(--norm-size); */
+    font-size: 30px;
+    /* position: relative; */
+    position: absolute;
+    align-content: center;
+    /* margin-left: -6px; */
+    /* margin-top: -20px; */
+    /* margin-top: -10%; */
+    top: 5%;
+    /* color: var(--like-color); */
+    color: floralwhite;
+}
+
+.chngBlock {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.chngBtn {
+    background: lightgray;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-family: "Neucha", sans-serif;
+    letter-spacing: 0.13em;
+    outline: none;
+    border: none;
+}
+
+/* @keyframes like {
+    15% {font-size: 80px;}
+    40% {font-size: 20px;}
+    70% {font-size: 30px;}
+    80% {font-size: 80px;}
+    to {font-size: 60px;}
+} */
+
+/* @keyframes storm {
+    10% {margin-left: 30px; margin-right: 20px;}
+    20% {margin-right: 30px;}
+    30% {margin-left: 40px;}
+    40% {margin-right: 40px;}
+    50% {margin-left: 50px;}
+    60% {margin-right: 50px;}
+    70% {margin-left: 60px;}
+    80% {margin-right: 60px;}
+    90% {margin-left: 70px; margin-right: 70px;}
+    to {margin-right: 0; margin-left: 0;}
+} */

@@ -1,0 +1,51 @@
+.dropdown {
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: "100%";
+  padding: 0px 50px 0px 0px;
+}
+
+.dropdown .dropdown-btn {
+  padding: 0px 15px;
+  background-color: #fff;
+  font-weight: bold;
+  color: #043f7c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  position: relative;
+}
+
+.dropdown .dropdown-btn::before {
+  position: absolute;
+  content: "";
+  background-image: url("https://images.unsplash.com/photo-1606788168886-286b0336272d?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+  background-size: 20px;
+}
+
+.dropdown .dropdown-content {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+  font-weight: 500;
+  color: #333;
+  width: 100%;
+  z-index: 10;
+}
+
+.dropdown .dropdown-content .dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.dropdown .dropdown-content .dropdown-item:hover {
+  background: rgba(4, 63, 124, 0.5);
+  color: white;
+}/*# sourceMappingURL=SortDropdown.css.map */

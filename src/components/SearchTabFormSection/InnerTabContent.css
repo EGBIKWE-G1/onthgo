@@ -1,0 +1,10 @@
+.card-style {
+    cursor: pointer;
+    margin-bottom: 4px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.selected {
+    border: 2px solid #043F7C;
+}

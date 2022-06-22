@@ -1,0 +1,9 @@
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    background-color: aliceblue;
+}
+
+a:hover {
+    background-color: deepskyblue;
+}

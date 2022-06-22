@@ -1,0 +1,27 @@
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   z-index: 1000000;
+}
+
+.loader-container .loader-asset {
+    width: 200px;
+    height: 200px;
+
+}
+
+.loader-container .loader-asset img {
+    width: 100%;
+    
+}
+
+.loader-container.hide {
+    display: none;
+}
