@@ -44,7 +44,7 @@ class Home extends Component {
                 <br/>
                 <br/>
                 <DealsSection />
-                <br/>
+                <br/>    
                 <br/>
                 <SpecialOffersSection />
                 <br/>

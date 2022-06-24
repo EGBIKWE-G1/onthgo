@@ -23,7 +23,7 @@ const Success = React.lazy(() => import('./pages/success/SuccessPage'));
 // import OnTheGoPage from './pages/OnTheGoPage'
 
 const token = localStorage.authToken;
-
+    
 function App() {
   const searching = useSelector(state => state.flight.searching)
   const loading = useSelector(state => state.flight.loading)
@@ -52,8 +52,8 @@ function App() {
       </Suspense>
       <Loading loading={searching} />
     </>
-
-  );
+    
+  );   
 }
 
 export default App;

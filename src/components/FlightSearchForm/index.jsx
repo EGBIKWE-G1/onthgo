@@ -223,7 +223,7 @@ export const SearchForm = () => {
         style={{ marginTop: "14px", height: "55px" }}
       >
         <Form.Row>
-          <Col md="2">
+          <Col md="3">
           {/* <Col md="3"> */}
             <Form.Group>
               <AutoCompleteInput
@@ -242,7 +242,7 @@ export const SearchForm = () => {
               )}
             </Form.Group>
           </Col>
-          <Col md="2">
+          <Col md="3">
           {/* <Col md="3"> */}
             <Form.Group>
               <AutoCompleteInput
@@ -270,14 +270,14 @@ export const SearchForm = () => {
               />   
             </Form.Group>
           </Col>
-          <Col md="4">
+          <Col md="1">
           {/* <Col md="4"> */}
             <Form.Group>
               <Cabin setCabinValue={setCabin} cabinValue={cabin} />
             </Form.Group>
-          </Col>
+          </Col>    
           
-          <Col md="2" as={`div`}>
+          <Col md="3" as={`div`}>
           {/* <Col md="6" as={`div`}> */}
             <PassengerInput
               setAdult={setAdult}
@@ -300,7 +300,7 @@ export const SearchForm = () => {
     </div>
   );
 };
-
+     
 export default ({
   tabs,
   // handleOnTabSelect,

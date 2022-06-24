@@ -5,10 +5,10 @@ import cardimg2 from '../../assets/img/cardimg/2.jpg'
 import cardimg3 from '../../assets/img/cardimg/3.jpg'
 import cardimg4 from '../../assets/img/cardimg/4.jpg'
 import cardimg5 from '../../assets/img/cardimg/5.jpg'
-import paris from '../../assets/img/cardimg/paris.png'
-import city from '../../assets/img/cardimg/city.png'
-import city1 from '../../assets/img/cardimg/city1.png'
-import city2 from '../../assets/img/cardimg/city2.png'
+import airplain from '../../assets/img/cardimg/airplain.png'
+import boat from '../../assets/img/cardimg/boat.png'
+import train from '../../assets/img/cardimg/train.png'
+import bus from '../../assets/img/cardimg/bus.png'
 import clickandshop from '../../assets/img/icons/home/click-shop-w.png'
 import clickandplay from '../../assets/img/icons/home/click-play-w.png'
 import moneymatters from '../../assets/img/icons/home/money-matters-w.png'
@@ -40,7 +40,7 @@ const OnTheGoSection = () => {
 				<CardDeck>
 					{/* on the go */}
 					<Card style={{ heightxx: '-webkit-min-content', boxShadow: '7px 3px 10px #e1e1e1', border: 'none', positionxx: 'relative' }}>
-						<Card.Img variant="top" src={paris} />
+						<Card.Img variant="top" src={airplain} />
 						<LikeButton />
 						<span align='center' className='ml-autox' style={{ backgroundColor: '#043f7c', marginTop: '-20px', marginLeft: '80%', padding: '10px', borderRadius: '250px', color: 'white', width: '45px' }}>
 							<i align='center' style={{ fontSize: '15px' }} className="fa fa-plane" />
@@ -63,7 +63,7 @@ const OnTheGoSection = () => {
 							</Row>
 							<Card.Text as={`div`} className="deals-text">
 								<div>
-									<h6><b>&#8358;125,000</b></h6>
+									<h6><b>&#8358;255,500</b></h6>
 									<span style={{ fontSize: '15px' }} className="material-icons">group</span>
 									<p>2 People</p>
 								</div>
@@ -84,7 +84,7 @@ const OnTheGoSection = () => {
 					</Card>
 
 					<Card style={{ heightxx: '-webkit-min-content', boxShadow: '7px 3px 10px #e1e1e1', border: 'none', positionxx: 'relative' }}>
-						<Card.Img variant="top" src={city1} />
+						<Card.Img variant="top" src={train} />
 						<LikeButton />
 						<span align='center' className='ml-autox' style={{ backgroundColor: '#043f7c', marginTop: '-20px', marginLeft: '80%', padding: '10px', borderRadius: '250px', color: 'white', width: '45px' }}>
 							<i align='center' style={{ fontSize: '15px' }} className="fa fa-train" />
@@ -95,7 +95,7 @@ const OnTheGoSection = () => {
 							<Row style={{ marginTop: '-17px' }} className="align-center">
 								<Col md='3' align='center' style={{ color: '#043f7c' }}>
 									<span style={{ fontSize: '15px' }} className="material-icons">directions_transit</span>
-									<p style={{ fontSize: '8px' }}>Abuja</p>
+									<p style={{ fontSize: '8px' }}>Lagos</p>
 								</Col>
 								<Col md='6' align='center' style={{ marginTop: '2px' }}>
 									<hr style={{ color: '#043f7c' }} />
@@ -106,7 +106,7 @@ const OnTheGoSection = () => {
 								</Col>
 							</Row>
 							<Card.Text as={`div`} className="deals-text">
-								<h6><b>&#8358;299,005</b></h6>
+								<h6><b>&#8358;12,899</b></h6>
 								<div>
 									<span style={{ fontSize: '15px' }} className="material-icons">group</span>
 									<p>1 Person</p>
@@ -128,7 +128,7 @@ const OnTheGoSection = () => {
 					</Card>
 
 					<Card style={{ heightxx: '-webkit-min-content', boxShadow: '7px 3px 10px #e1e1e1', border: 'none', positionxx: 'relative' }}>
-						<Card.Img variant="top" src={city} />
+						<Card.Img variant="top" src={boat} />
 						<LikeButton />
 						<span align='center' className='ml-autox' style={{ backgroundColor: '#043f7c', marginTop: '-20px', marginLeft: '80%', padding: '10px', borderRadius: '250px', color: 'white', width: '45px' }}>
 							<i align='center' style={{ fontSize: '15px' }} className="fa fa-ship" />
@@ -139,18 +139,18 @@ const OnTheGoSection = () => {
 							<Row style={{ marginTop: '-17px' }} className="align-center">
 								<Col md='3' align='center' style={{ color: '#043f7c' }}>
 									<span style={{ fontSize: '15px' }} className="material-icons">directions_boat</span>
-									<p style={{ fontSize: '8px' }}>Kano</p>
+									<p style={{ fontSize: '8px' }}>Lagos</p>
 								</Col>
 								<Col md='6' align='center' style={{ marginTop: '2px' }}>
 									<hr style={{ color: '#043f7c' }} />
 								</Col>
 								<Col md='3' align='center' style={{ color: '#043f7c' }}>
 									<span style={{ fontSize: '15px' }} className="material-icons">directions_boat</span>
-									<p style={{ fontSize: '8px' }}>China</p>
+									<p style={{ fontSize: '8px' }}>Cotonou</p>
 								</Col>
 							</Row>
 							<Card.Text as={`div`} className="deals-text">
-								<h6><b>&#8358;223,985</b></h6>
+								<h6><b>&#8358;2,300</b></h6>
 								<div>
 									<span style={{ fontSize: '15px' }} className="material-icons">group</span>
 									<p>1 Person</p>
@@ -172,7 +172,7 @@ const OnTheGoSection = () => {
 					</Card>
 
 					<Card style={{ heightxx: '-webkit-min-content', boxShadow: '7px 3px 10px #e1e1e1', border: 'none', positionxx: 'relative' }}>
-						<Card.Img variant="top" src={city2} />
+						<Card.Img variant="top" src={bus} />
 						<LikeButton />
 						<span align='center' className='ml-autox' style={{ backgroundColor: '#043f7c', marginTop: '-20px', marginLeft: '80%', padding: '10px', borderRadius: '250px', color: 'white', width: '45px' }}>
 							<i align='center' style={{ fontSize: '15px' }} className="fa fa-bus" />
@@ -183,18 +183,18 @@ const OnTheGoSection = () => {
 							<Row style={{ marginTop: '-17px' }} className="align-center">
 								<Col md='3' align='center' style={{ color: '#043f7c' }}>
 									<span style={{ fontSize: '15px' }} className="material-icons">directions_bus</span>
-									<p style={{ fontSize: '8px' }}>Lagos</p>
+									<p style={{ fontSize: '8px' }}>Abuja</p>
 								</Col>
 								<Col md='6' align='center' style={{ marginTop: '2px' }}>
 									<hr style={{ color: '#043f7c' }} />
 								</Col>
 								<Col md='3' align='center' style={{ color: '#043f7c' }}>
 									<span style={{ fontSize: '15px' }} className="material-icons">directions_bus</span>
-									<p style={{ fontSize: '8px' }}>Dubai</p>
+									<p style={{ fontSize: '8px' }}>Benin</p>
 								</Col>
 							</Row>
 							<Card.Text as={`div`} className="deals-text">
-								<h6><b>&#8358;177,888</b></h6>
+								<h6><b>&#8358;18,999</b></h6>
 								<div>
 									<span style={{ fontSize: '15px' }} className="material-icons">group</span>
 									<p>2 People</p>

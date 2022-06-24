@@ -5,12 +5,12 @@ import { getCurrentUser, loginUser } from './../../redux/actions/auth'
 import axios from '../../axios'
 import { Route } from 'react-router-dom'
 
-import CustomNavbar from '../CustomNavbar'
+import CustomNavbar from '../CustomNavbar'    
 
 const DashboardLayout = ({ children, ...rest }) => {
   return (
     <>
-      {/* <CustomNavbar /> */}
+      <CustomNavbar />
 
       {children}
     </>

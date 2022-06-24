@@ -18,9 +18,9 @@ div#departure-input-container {
   padding: 1px;
 }
 div#departure-input-container .icon {
-  position: absolute;
+  /* position: absolute;
   top: 20;
-  padding: 4px;
+  padding: 4px; */
 }
 div#departure-input-container #departureDateInput {
   width: 60%;

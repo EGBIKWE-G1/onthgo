@@ -181,7 +181,7 @@ export default () => {
       </Container>
 
       <div className="box-container onthego-section">
-        <OnTheGoSection />
+        <OnTheGoSection />    
       </div>
 
       <div className="box-container">

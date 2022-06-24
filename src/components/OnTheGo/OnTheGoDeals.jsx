@@ -14,7 +14,7 @@ import {
 } from 'react-bootstrap'
 import paris1 from '../../assets/img/cardimg/paris1.png'
 import london from '../../assets/img/cardimg/london.png'
-import uae from '../../assets/img/cardimg/uae.png'
+import mosques from '../../assets/img/cardimg/mosques.jpg'
 import clickandshop from '../../assets/img/icons/home/click-shop-w.png'
 import clickandplay from '../../assets/img/icons/home/click-play-w.png'
 import moneymatters from '../../assets/img/icons/home/money-matters-w.png'
@@ -100,7 +100,7 @@ const OnTheGoDeals = () => {
                 <div className="holiday-dates">
                   <p>England</p>
                   <div className="separate" />
-                  <span>20 Days</span>
+                  <span>10 Days</span>
                 </div>
               </Card.Title>
               <div className="vacation-text">
@@ -120,7 +120,7 @@ const OnTheGoDeals = () => {
                   <p>2 People</p>
                 </div>
                 <h6>
-                  <b>&#8358;125,000</b>
+                  <b>&#8358;1,400,000</b>
                 </h6>
               </div>
             </Card.Body>
@@ -134,7 +134,7 @@ const OnTheGoDeals = () => {
               positionxx: 'relative',
             }}
           >
-            <Card.Img variant="top" src={uae} />
+            <Card.Img variant="top" src={mosques} />
             <span
               align="center"
               className="ml-autox"
@@ -165,8 +165,9 @@ const OnTheGoDeals = () => {
               </Card.Title>
               <div className="vacation-text">
                 <p>
-                  Dubai can be seen as the most interesting city of UAE and
-                  one of the amazing city’s worldwide
+                  {/* Dubai can be seen as the most interesting city of UAE and
+                  one of the amazing city’s worldwide */}
+                  The Taj Mahal is an Islamic ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of ....
                 </p>
               </div>
               <div className="card-text vacation-deals">
@@ -177,10 +178,10 @@ const OnTheGoDeals = () => {
                   >
                     group
                   </span>
-                  <p>1 Person</p>
+                  <p>3 Person</p>
                 </div>
                 <h6>
-                  <b>&#8358;125,000</b>
+                  <b>&#8358;3,800,000</b>
                 </h6>
               </div>
             </Card.Body>
@@ -225,8 +226,9 @@ const OnTheGoDeals = () => {
               </Card.Title>
               <div className="vacation-text">
                 <p>
-                  London can be seen as the most interesting city of Europe
-                  and one of the amazing city’s worldwide
+                  {/* London can be seen as the most interesting city of Europe
+                  and one of the amazing city’s worldwide */}
+                  The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer and ...
                 </p>
               </div>
               <div className="card-text vacation-deals">
@@ -237,10 +239,10 @@ const OnTheGoDeals = () => {
                   >
                     group
                   </span>
-                  <p>2 People</p>
+                  <p>3 People</p>
                 </div>
                 <h6>
-                  <b>&#8358;125,000</b>
+                  <b>&#8358;1,545,000</b>
                 </h6>
               </div>
             </Card.Body>
