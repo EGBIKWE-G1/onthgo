@@ -41,7 +41,7 @@ function App() {
     <>
       <Suspense fallback={<PageLoader />}>
         <AppAlert/>
-        <Switch>
+        <Switch>  
           <AuthLayout path='/' exact component={OnTheGoPage} />
           <AuthLayout exact path='/flightsearch' component={FlightSearchPage} />
           <AuthLayout exact path='/success' component={Success} />

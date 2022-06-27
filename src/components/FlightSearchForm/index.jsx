@@ -111,7 +111,7 @@ export const SearchForm = () => {
   const [departureDate, setDepartureDate] = useState("");
   const [addReturn, setAddReturn] = useState("");
   const [returnDate, setReturnDate] = useState("");
-  const [cabin, setCabin] = useState("");
+  const [cabin, setCabin] = useState("");   
   // const [passengerValue, setPassengerValue] = useState(1)
   const [adult, setAdult] = React.useState(1);
   const [childrenValue, setChildrenValue] = React.useState(0);
@@ -217,14 +217,13 @@ export const SearchForm = () => {
   };
 
   return (
-    <div className="">
+    <div className="">   
       <Form
         onSubmit={handleSubmit(onSubmit)}
         style={{ marginTop: "14px", height: "55px" }}
       >
         <Form.Row>
           <Col md="3">
-          {/* <Col md="3"> */}
             <Form.Group>
               <AutoCompleteInput
                 suggestions={sources}
@@ -243,24 +242,23 @@ export const SearchForm = () => {
             </Form.Group>
           </Col>
           <Col md="3">
-          {/* <Col md="3"> */}
             <Form.Group>
               <AutoCompleteInput
                 suggestions={destinations}
                 setSelectedValue={(data) => {
                   setDestinationData(data);
                   setDestinationText(data?.name);
-                }}
+                }}   
                 labelText="To: "
                 icon={toIcon}
                 value={localDestination}
               />
             </Form.Group>
           </Col>
-          <Col md="3">
+          <Col md="6">
           {/* <Col md="6"> */}
             <Form.Group>
-              <DepartureInput
+              <DepartureInput    
                 setDepartureDateValue={setDepartureDate}
                 setReturnDateValue={setReturnDate}
                 departureDateValue={departureDate}
@@ -270,14 +268,14 @@ export const SearchForm = () => {
               />   
             </Form.Group>
           </Col>
-          <Col md="1">
+          <Col md="4">
           {/* <Col md="4"> */}
             <Form.Group>
               <Cabin setCabinValue={setCabin} cabinValue={cabin} />
             </Form.Group>
           </Col>    
           
-          <Col md="3" as={`div`}>
+          <Col md="6" as={`div`}>       
           {/* <Col md="6" as={`div`}> */}
             <PassengerInput
               setAdult={setAdult}
@@ -291,6 +289,7 @@ export const SearchForm = () => {
             />
           </Col>
           <Col md="2">
+          {/* <Col md="2"> */}
             <Button variant="danger" style={{ width: "100%" }} type="submit">
               {searching ? "..." : "Search"}
             </Button>

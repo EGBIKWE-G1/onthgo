@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
-import './PassengerInput.css'
+import './PassengerInput.css'    
 import { useDispatch } from 'react-redux';
 import { updatePassengerCounter } from './../../redux/actions/flight';
 import PassengerIcon from './../../assets/img/icons/passenger-icon.svg'
@@ -22,7 +22,9 @@ const PassengerInputItem = ({ label, setData, data, minValue = 0 }) => {
         }
     }
 
-    return (<div className="dropdown-item" style={{ display: 'flex', justifyContent: "space-between", alignItems: 'center' }}>
+    return (
+        // <div></div>
+    <div className="dropdown-item" style={{ display: 'flex', justifyContent: "space-between", alignItems: 'center' }}>
         <div className="item-title" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyItems: 'center' }}>
             <div>{label}</div>
             <div style={{ fontSize: '8px' }}>{` >12yrs`}</div>

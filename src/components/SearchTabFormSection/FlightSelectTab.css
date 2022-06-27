@@ -1,9 +1,16 @@
-@media only screen and (min-width: 580px) and (max-width: 736px) {
-    #flight-select-container {
+.Covid19Content-Card__header{
+  background-color: #FFFBE6;
+  border-color: #FFE58F;
+  
 
+}
+
+/* @media only screen and (min-width: 580px) and (max-width: 736px) {
+    #flight-select-container {
+        
         height: 350px;
     }
- }
+ } */
 @media only screen and (max-width: 580px) {
    
-}
+}      

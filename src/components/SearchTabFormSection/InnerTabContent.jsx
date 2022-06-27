@@ -173,7 +173,7 @@ export default () => {
                         fontSize: '20px',
                         color: '#000000',
                         lineHeight: '10px',
-                      }}
+                      }}   
                     >
                       {/* {merchant.source.take_off} */}{segment.departureTime}
                     </div>
@@ -251,7 +251,7 @@ export default () => {
                     fontWeight: 'bold',
                     fontSize: '12px',
                     lineHeight: '15px',
-                    color: '#043F7C',
+                    color: '#043F7C',  
                   }}
                 >
                   NGN

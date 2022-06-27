@@ -29,6 +29,7 @@
   border-radius: 0px 5px 5px 5px;
   background-color: #ffffff;
   padding-top: 1rem;
+  // padding-top: 1rem;
   padding-left: 0.8rem !important;
   padding-right: 0.8rem !important;
   padding-bottom: 5rem !important;
@@ -69,6 +70,7 @@
 }
 @media only screen and (max-width: 550px) {
   #input-container {
-    height: 340px;
+    height: 400px;
+    // height: 340px;
   }
 }

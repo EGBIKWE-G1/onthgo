@@ -134,8 +134,8 @@ function OnTheGo() {
   const [activeTab, setActiveTab] = useState(tabs[0]);
 
   const activeTabStyle = {
-    backgroundColor: "#043f7c",
-    color: "#fff",
+    // backgroundColor: "#043f7c",
+    // color: "#fff",
   };
 
   const tabStyle = {
@@ -158,7 +158,7 @@ function OnTheGo() {
           maxWidth: "100%",
           backgroundImage: `url(${activeTab.backgroundImage})`,
           backgroundPosition: "center",
-          backgroundSize: "cover",
+          backgroundSize: "cover",   
           backgroundRepeat: "no-repeat",
           color: "white",
           height: "450px",
@@ -244,6 +244,7 @@ function OnTheGo() {
 			</Col> */}
 
         <Row className="tab-row">
+        {/* <Row className="tab-row"> */}
           {tabs.map((item, index) => {
             return (
               <Col
@@ -295,10 +296,10 @@ function OnTheGo() {
               validated={validated}
               onSubmit={handleSubmit}
               stylex={{ marginTop: "14px", height: "55px" }}
-            >
+            >    
               <Form.Row
                 stylex={{
-                  backgroundColor: "#043f7c",
+                  // backgroundColor: "#043f7c",
                   width: "100%",
                   paddingTop: "20px",
                 }}
@@ -335,9 +336,9 @@ function OnTheGo() {
                       borderBottomRightRadius: "4px",
                     }}
                     id="inlineFormInputGroup"
-                    placeholder="To:"
+                    placeholder="To:"     
                     required
-                    type="text"
+                    type="text"    
                     defaultValue="London, England"
                   />
                   <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
@@ -375,13 +376,13 @@ function OnTheGo() {
                     id="inlineFormInputGroup"
                     placeholder="Passengers"
                     defaultValue="Mark"
-                    required
+                    required    
                     type="text"
                   />
                   <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                 </InputGroup>
 
-                <Form.Group className="formBtn" as={Col} md="2">
+                <Form.Group as={Col} md="2">
                   <Button
                     href="onthego/flightsearch"
                     variant="danger"

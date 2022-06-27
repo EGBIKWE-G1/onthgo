@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { InputGroup, FormControl, Dropdown } from 'react-bootstrap'
 
 import './DepartureInput.scss'
+import './DepartureInput.css'
 
 import departureDateIcon from '../../assets/img/icons/departure-date-icon.png'
 import DatePicker from 'react-datepicker'
@@ -15,12 +16,13 @@ export default ({
 }) => {
  
 
-  return (
+  return (    
 
-<>
-<div className="cabinIput-header" style={{ border: '2px solid #999', borderRadius: '5px', backgroundColor: 'white', display: 'flex' }}>
+<>   
+{/* <div className="cabinInput-header"> */}
+<div className="cabinInput-header" style={{ border: '2px solid #999', borderRadius: '5px', backgroundColor: 'white', display: 'flex' }}>
 {/* <div className="cabinIput-header" style={{ border: '1px solid #999', borderRadius: '5px', backgroundColor: 'white', display: 'flex', }}> */}
-<div className="CabinHead-select">
+{/* <div> */}  
 <select className="Cabin-Select" onChange={(e) => setCabinValue(e.target.value)} value={cabinValue} required>
         <option value="">Select Cabin Type</option>
         <option value="First Class">FIRST CLASS</option>
@@ -28,7 +30,7 @@ export default ({
         <option value="Premium Economy">PREMIUM ECONOMY</option>
         <option value="Economy">ECONOMY</option>
       </select>
-      </div>
+      {/* </div> */}
 </div>
 </>
     // </InputGroup>

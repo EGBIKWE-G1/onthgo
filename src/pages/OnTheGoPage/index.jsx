@@ -133,7 +133,9 @@ export default () => {
           color: "white",
           height: "450px",
           position: "relative",
-          marginBottom: "180px",
+          marginTop: "-13%",
+          // marginBottom: "180px",
+          // marginBottom: "180px",
           zIndex: 1000,
         }}
       >
@@ -168,7 +170,7 @@ export default () => {
             paddingRight: "25px",
           }}
         >
-          <FlightSearchForm
+          <FlightSearchForm  
             validated={validated}
             // handleOnTabSelect={handleOnTabSelect}
             tabs={tabs}
@@ -178,7 +180,7 @@ export default () => {
             setActiveTab={setActiveTab}
           />
         </div>
-      </Container>
+      </Container>      
 
       <div className="box-container onthego-section">
         <OnTheGoSection />    
